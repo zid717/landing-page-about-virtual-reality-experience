@@ -1,0 +1,196 @@
+
+/* ====================== google fonts ==================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap');
+
+:root{
+    --font-1:'Anton', sans-serif;
+    --font-2:'Roboto Slab', serif;
+}
+
+/* ====================== main container ==================================== */
+
+.main_container{
+    max-height: 1070px;
+    height: 1067px;
+}
+
+/* ======================= navbar ============================== */
+
+.logo-top{
+    width: 102px;
+}
+
+ .navbar-brand {
+    margin-left: 6rem;
+    margin-right: 0;
+    position: relative;
+    top: 2rem;
+}
+
+.me-auto {
+    margin-right: 0 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+}
+
+.nav-link{
+    font-size: 29px;
+}
+
+.nav-item{
+    margin-right: 5%;
+}
+
+.nav-item:hover a{
+    color:rgb(106, 240, 117) !important;
+}
+
+.navbar-expand-lg .navbar-collapse {
+  
+    margin-left: 21%;
+}
+
+.ul-nav{
+
+    margin-left: 9%;
+}
+
+/* ======================= background image ============================== */
+.bg-image{
+    width: 100%;
+
+}
+
+#bg-row{
+    position: relative;
+    bottom: 113px !important;
+    z-index: -1;
+
+}
+
+/* ======================= main text content ============================== */
+#main_text_content{
+
+    position: relative;
+    top: -53rem !important;
+}
+
+.main_text_btn{
+
+    padding: 5px;
+    background: none;
+    outline: none;
+    border: none;
+    font-size: 22px;
+    margin-left: -19%;
+    font-weight: bolder;
+    
+
+}
+
+.btn_icon{
+
+    font-size: 1.2rem;
+    
+}
+
+.left_text{
+    position: relative;
+    top: -4rem;
+}
+
+.left_text h1{
+    font-family: var(--font-1);
+letter-spacing: .4rem;
+font-size: 61px;
+margin-right: 8%;
+}
+
+.left_text h2{
+    font-weight: bold;
+font-size: 35px;
+letter-spacing: .3rem;
+}
+
+.experience{
+    margin-left: 15%;
+}
+
+.right_text h2{
+    font-weight: bolder;
+}
+
+.discount{
+    margin-left: 15%;
+}
+
+.right_text p{
+    font-size: 16px;
+}
+
+.right_text{
+    position: relative;
+    top: 4rem;
+}
+
+
+/* ======================= footer  ============================== */
+
+#footer{
+
+    position: relative;
+    top: -34rem;
+
+}
+
+.left_footer{
+
+    margin-right: 14%;
+}
+
+.left_footer a{
+
+color: white;
+text-decoration: none;
+font-size: 19px;
+
+}
+
+.left_footer a:hover{
+
+    color: orange;
+    
+}
+
+.right_footer{
+
+    text-align: right;
+    position: relative;
+    left: 10%;
+}
+
+
+.icons_footer{
+
+    background: white;
+    border-radius: 50%;
+    padding: 9px;
+    font-size: 16px;
+    width: 39px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 3px;
+    
+}
+
+
+.icons_footer:hover{
+
+    background-color:lightblue;
+    cursor: pointer;
+
+}

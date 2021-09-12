@@ -1,0 +1,292 @@
+@media only screen and (min-width:990px) and (max-width:1400px){
+
+    .nav-link {
+        font-size: 26px;
+    }
+
+    .nav-item {
+        margin-right: 3%;
+    }
+
+    .navbar-expand-lg .navbar-collapse {
+        margin-left: 19%;
+        position: relative;
+        bottom: 1.5rem;
+    }
+
+    
+}
+
+
+@media only screen and (min-width:500px) and (max-width:700px){
+
+  
+    .logo-top {
+        width: 35px;
+    }
+
+    #bg-row {
+        bottom: 58px !important;
+    }
+
+    .navbar-brand {
+        margin-left: 3%;
+        top: 3%;
+    }
+
+    .navbar-toggler {
+        padding: .1rem .1rem;
+        font-size: 1.1rem;
+
+    }
+
+}
+
+@media only screen and (min-width:700px) and (max-width:1100px){
+
+    .left_text {
+        
+        top: 6rem;
+    }
+
+    #main_text_content {
+        top: -27rem !important;
+    }
+
+    .left_text h2 {
+    
+        font-size: 18px;
+        margin-right: 33px;
+    
+    }
+
+    .left_text h1 {
+        letter-spacing: .2rem;
+        font-size: 15px;
+        margin-right: 35%;
+    }
+
+    .main_text_btn {
+        padding: 2px;
+        font-size: 15px;
+        margin-left: -26%;
+    
+    }
+
+    #footer {
+        top: -19rem;
+    }
+
+    .left_footer {
+        padding: 0;
+        margin: 0;
+        position: relative;
+        left: -12%;
+    }
+
+    .right_text p {
+        font-size: 10px;
+        margin: 0;
+    }
+
+    .right_text h2 {
+
+        font-size: 15px;
+    }
+
+    .right_text {
+        top: 5rem;
+    }
+
+    .left_footer {
+        height: 31px;
+    }
+
+    .right_footer {
+       
+        padding: 0;
+    }
+
+    .icons_footer {
+
+        border-radius: 47%;
+        padding: 2px;
+        font-size: 9px;
+        width: 18px; 
+    }
+
+
+}
+
+@media only screen and (max-width:500px){
+
+    .logo-top {
+        width: 35px;
+    }
+
+    .navbar-brand {
+        margin-left: 1rem;
+        top: 0rem;
+    }
+
+    #bg-row {
+        bottom: 58px !important;
+
+    }
+
+    #main_text_content {
+        top: -17rem !important;
+        height: 0;
+    }
+
+    .navbar-toggler {
+        padding: 2px;
+        font-size: 13px;
+        background: green;
+
+    }
+
+    .left_text {
+        top: 6.7rem;
+    }
+
+    .left_text h2 {
+        font-size: 8px;
+        letter-spacing: .2rem;
+        margin: 0;
+    }
+
+    .left_text h1 {
+        letter-spacing: 0.3rem;
+        font-size: 10px;
+        margin-right: 9%;
+        line-height: .9rem;
+    }
+
+    .main_text_btn {
+        padding: 1px;
+        font-size: 9px;
+        margin-left: -11%;
+        position: relative;
+        top: -0.5rem;
+    }
+
+    .btn_icon{
+        display: none;
+    }
+
+    .right_text h2 {
+        font-size: 8px;
+        margin: 0;
+        padding-right: .3rem;
+    }
+
+
+    .right_text p {
+        display: none;
+    }
+
+    .right_text {
+        top: 7rem;
+    }
+
+    .left_footer a {
+       
+        font-size: 10px;
+        position: relative;
+        left: -76%;
+    }
+
+    .right_footer{
+
+        width: 110px;
+    }
+
+    .icons_footer {
+        padding: 1px;
+        font-size: 7px;
+        width: 14px;
+    }
+
+    #footer {
+        top: -5.5rem;
+    }
+
+}
+
+
+
+@media  only screen and (min-width:1262px) and (max-width:1738px) {
+
+    .left_text {
+
+        top: 13rem;
+    }
+
+    .right_text {
+
+        top: 18rem;
+    }
+
+  
+    
+}
+
+@media  only screen and (min-width:1100px) and (max-width:1262px) {
+
+    .left_text {
+        top: 21rem;
+    }
+
+    .right_text {
+
+        top: 18rem;
+    }
+    
+    .left_text h1 {
+       
+        font-size: 27px;
+        
+    }
+
+    .left_text h2 {
+        
+        font-size: 17px;
+        
+    }
+
+    .main_text_btn {
+        font-size: 15px;
+        margin-left: -13%;
+        
+    }
+
+    #footer {
+        top: -24rem;
+    }
+
+    
+    .icons_footer {
+
+        border-radius: 47%;
+        padding: 2px;
+        font-size: 9px;
+        width: 18px; 
+    }
+
+    .right_text h2 {
+       
+        font-size: 19px;
+    }
+
+    .right_text p {
+        margin: 0;
+        font-size: 14px;
+    }
+
+    .right_text {
+        top: 24rem;
+    }
+
+
+}
